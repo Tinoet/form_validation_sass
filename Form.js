@@ -10,7 +10,7 @@ btn.addEventListener("mouseover", function () {
     position ? (position = 0) : (position = 100);
     //adding the css animation property
     btn.style.transform = `translate(${position}px, 0px)`;
-    btn.style.transition = "all 0.3s ease";
+    btn.style.transition = "all 0.3s ease" ;
   } else {
     return;
   }
